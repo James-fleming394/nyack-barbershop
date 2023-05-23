@@ -1,0 +1,27 @@
+.Navbar {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(234, 233, 232);
+}
+
+.nav-links {
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 95%;
+    text-transform: uppercase;
+}
+
+.nav-links:hover {
+    padding: 10px 0 10px 0;
+    color: navy;
+    opacity: 100%;
+    transition: all 0.3s ease-in-out;
+}
