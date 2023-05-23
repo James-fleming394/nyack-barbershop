@@ -1,3 +1,4 @@
+/* Webpage CSS */
 .Navbar {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -24,4 +25,35 @@
     color: navy;
     opacity: 100%;
     transition: all 0.3s ease-in-out;
+}
+
+/* Phone CSS */
+@media (max-width: 1000px) {
+    .Navbar {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(234, 233, 232);
+    }
+
+    .nav-links {
+        padding: 10px 0 10px 0;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+        opacity: 95%;
+        text-transform: uppercase;
+    }
+    
+    .nav-links:hover {
+        padding: 10px 0 10px 0;
+        color: navy;
+        opacity: 100%;
+        transition: all 0.3s ease-in-out;
+    }
 }
