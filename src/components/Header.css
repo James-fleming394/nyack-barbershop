@@ -1,3 +1,4 @@
+/* Webpage CSS */
 .header {
     display: flex;
     justify-content: space-between;
@@ -26,7 +27,7 @@
 }
 
 .tel-link, .direction-link {
-    color: #333;
+    color: navy;
     text-decoration: none;
 }
 
@@ -36,13 +37,14 @@
     color: navy;
 }
 
-@media (max-width: 900px) {
+/* Phone CSS */
+@media (max-width: 1000px) {
     .header {
         flex-direction: column;
     }
 
     .logo-img {
-        max-width: 300px;
+        max-width: 200px;
         align-items: center;
     }
 
