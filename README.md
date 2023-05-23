@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Nyack Barbershop 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Deployed Site]()
+Created by James Fleming
+# Socials
 
-## Available Scripts
+### [LinkedIn](https://www.linkedin.com/in/james--fleming/) | [GitHub](https://github.com/James-fleming394) | [Twitter](https://twitter.com/jflem394) 
 
-In the project directory, you can run:
+James.Fleming394@gmail.com
 
-### `npm start`
+# Description
+A simple react frontend application designed for an amazing barbershop in Nyack, NY.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Installation](#installation)
+- [Technology](#technology)
+- [Views](#views)
+- [Credits](#credits)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Installation
 
-### `npm run build`
+1. `Fork` and `Clone`
+2. run `npm install`
+3. run `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Technology
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. React
+2. Javascript
+3. CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Views 
 
-### `npm run eject`
+## [Deployed Site]()
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Credits 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[MDN](https://developer.mozilla.org/en-US/)
 
-## Learn More
+[W3 School](https://www.w3schools.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Stack Overflow](https://stackoverflow.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MongoDB Support](https://www.mongodb.com/home)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React Support](https://reactjs.org/community/support.html)
