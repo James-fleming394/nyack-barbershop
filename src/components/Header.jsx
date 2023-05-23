@@ -21,7 +21,9 @@ const Header = () => {
             </div>
             <div className="directions">
                 <h4 className="h4">Directions</h4>
-                <h6 className="h6"><a className="direction-link" href="https://www.google.com/maps?um=1&fb=1&gl=us&sa=X&geocode=Kc_LIfkN6sKJMdqIIglked4X&daddr=69+Main+St,+Nyack,+NY+10960&ved=0CBAQiBNqFwoTCKD44aPui_8CFQAAAAAdAAAAABAY">69 Main St Nyack, NY 10960</a></h6>
+                <h6 className="h6"><a className="direction-link" 
+                href="https://www.google.com/maps?um=1&fb=1&gl=us&sa=X&geocode=Kc_LIfkN6sKJMdqIIglked4X&daddr=69+Main+St,+Nyack,+NY+10960&ved=0CBAQiBNqFwoTCKD44aPui_8CFQAAAAAdAAAAABAY">
+                69 Main St Nyack, NY 10960</a></h6>
             </div>
         </div>
     )

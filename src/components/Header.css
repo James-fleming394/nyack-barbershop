@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+.logo-img {
+    width: 500px;
+    height: auto;
+}
+
+.hours, .appointment, .directions {
+    text-align: center;
+}
+
+.h4 {
+    margin: 5px 0;
+    font-size: 25px;
+}
+
+.h6 {
+    margin: 3px 0;
+    font-size: 15px;
+}
+
+.tel-link, .direction-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.tel-link:hover, .direction-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: navy;
+}
