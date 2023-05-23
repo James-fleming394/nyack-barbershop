@@ -35,3 +35,31 @@
     text-decoration: underline;
     color: navy;
 }
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .logo-img {
+        max-width: 300px;
+        align-items: center;
+    }
+
+    .logo-img, .hours, .appointment, .directions {
+        margin-bottom: 10px;
+    }
+
+    .h4 {
+        font-size: 15px;
+    }
+
+    .h6 {
+        font-size: 12px;
+    }
+
+    .tel-link, .direction-link {
+        color: navy;
+    }
+    
+}
