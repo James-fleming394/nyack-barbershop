@@ -20,7 +20,7 @@ const Header = () => {
                 <h4 className="h4"><a className="tel-link" href="tel:+18453582030">(845) 358-2030</a></h4>
             </div>
             <div className="directions">
-                <h4 className="h4">Directions</h4>
+                <h4 className="h4">Check Us Out</h4>
                 <h6 className="h6"><a className="direction-link" 
                 href="https://www.google.com/maps?um=1&fb=1&gl=us&sa=X&geocode=Kc_LIfkN6sKJMdqIIglked4X&daddr=69+Main+St,+Nyack,+NY+10960&ved=0CBAQiBNqFwoTCKD44aPui_8CFQAAAAAdAAAAABAY">
                 69 Main St Nyack, NY 10960</a></h6>
