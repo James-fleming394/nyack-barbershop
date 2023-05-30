@@ -33,6 +33,9 @@ const Home = () => {
                 <h2 onClick={staffClick}>Book Now</h2>
                 <h2 onClick={serviceClick}>Our Services</h2>
             </div>
+            <div className="yelp">
+                <div className="elfsight-app-63c859e2-7023-41bd-804a-b8d1727cc51e"></div>
+            </div>
         </div>
     )
 }

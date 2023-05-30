@@ -66,6 +66,13 @@ h2:hover {
     cursor: pointer;
 }
 
+.yelp {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 1000px) {
     .Home {
         display: grid;
@@ -133,5 +140,12 @@ h2:hover {
         transition: 0.2s ease-in;
         background-color: #303030;
         cursor: pointer;
+    }
+    .yelp {
+        margin-top: -15px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
