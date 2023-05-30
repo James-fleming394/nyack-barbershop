@@ -44,6 +44,28 @@ p {
     letter-spacing: .5px;
 }
 
+.book-now {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(241, 238, 197);
+    background-color: #111010;
+    padding: 20px;
+    transition: 0.2s ease-out;
+}
+
+h2:hover {
+    transition: 0.2s ease-in;
+    background-color: #303030;
+    cursor: pointer;
+}
+
 @media (max-width: 1000px) {
     .Home {
         display: grid;
@@ -90,4 +112,26 @@ p {
         color: rgb(241, 238, 197);
         letter-spacing: .5px;
     }   
+
+    .book-now {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 15px;
+        color: rgb(241, 238, 197);
+        background-color: #111010;
+        padding: 12px;
+        transition: 0.2s ease-out;
+    }
+    
+    h2:hover {
+        transition: 0.2s ease-in;
+        background-color: #303030;
+        cursor: pointer;
+    }
 }
