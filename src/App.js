@@ -1,8 +1,10 @@
 import './App.css';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
+
 
 const App = () => {
   return (
@@ -13,7 +15,8 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>
-        </div> 
+        </div>
+      <Footer />  
     </div>
   );
 }
