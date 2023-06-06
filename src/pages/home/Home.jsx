@@ -23,16 +23,16 @@ const Home = () => {
     return(
         <div className="Home">
             <div className="welcome">
-                <h1>Welcome to Nyack Barbershop</h1>
-                <p>Cutting Edge Styles for Every Generation</p>
+                <h1 className="h1-welcome">Welcome to Nyack Barbershop</h1>
+                <p className="p-welcome">Cutting Edge Styles for Every Generation</p>
             </div>
             <div className="image-home">
                 <img className="image" src={Home1} alt="Home" />
             </div>
             <div className="book-now">
-                <h2 onClick={bookClick}>Our Staff</h2>
-                <h2 onClick={staffClick}>Book Now</h2>
-                <h2 onClick={serviceClick}>Our Services</h2>
+                <h2 className="h2-welcome" onClick={staffClick}>Our Staff</h2>
+                <h2 className="h2-welcome" onClick={bookClick}>Book Now</h2>
+                <h2 className="h2-welcome" onClick={serviceClick}>Our Services</h2>
             </div>
             <div className="showoff">
                 <div className="left-side">

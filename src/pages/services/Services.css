@@ -1,0 +1,66 @@
+.services {
+    margin: 0;
+    padding: 0;
+}
+
+.barber-img {
+    width: 100%;
+    height: 400px;
+}
+
+.h1-services {
+    color: black;
+    text-align: center;
+}
+
+.h4-services {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.h3-services-cut {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.p-services-cut {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.h6-services-cut {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+
+.barber-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.classic {
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    background-color: rgb(60, 59, 59);
+}
+
+.policy-service {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid black;
+}
+
+.h2-services {
+    color: black;
+    text-align: center;
+}

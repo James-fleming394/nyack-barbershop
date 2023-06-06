@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-h1 {
+.h1-welcome {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: -3px;
@@ -31,12 +31,12 @@ h1 {
     text-align: center;
 }
 
-h1:hover {
+.h1-welcome:hover {
     font-variation-settings: "wght" 582; 
     letter-spacing: 1px;
 }
 
-p {
+.p-welcome {
     font-size: 20px;
     line-height: 150%;
     text-align: center;
@@ -51,7 +51,7 @@ p {
     align-items: center;
 }
 
-h2 {
+.h2-welcome {
     text-align: center;
     font-size: 25px;
     color: rgb(241, 238, 197);
@@ -60,7 +60,7 @@ h2 {
     transition: 0.2s ease-out;
 }
 
-h2:hover {
+.h2-welcome:hover {
     transition: 0.2s ease-in;
     background-color: #303030;
     cursor: pointer;
