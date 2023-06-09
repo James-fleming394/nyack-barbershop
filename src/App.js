@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Services from './pages/services/Services';
 import Staff from './pages/staff/Staff';
+import Gallery from './pages/gallery/Gallery';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
             <Route path='/' element={<Home />} />
             <Route path='/services' element={<Services />} />
             <Route path='/staff' element={<Staff />} />
+            <Route path='/gallery' element={<Gallery />} />
           </Routes>
         </div>
       <Footer />  
