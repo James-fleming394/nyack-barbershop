@@ -51,6 +51,13 @@ const Home = () => {
             <div className="yelp">
                 <div className="elfsight-app-63c859e2-7023-41bd-804a-b8d1727cc51e"></div>
             </div>
+            <div className="google-maps">
+            <iframe 
+            className="google-maps"
+            title="Google Map Nyack Barbershop"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.002785616314!2d-73.92042882372733!3d41.09078577133914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2ea0df921cbcf%3A0x17de7964092288da!2sNyack%20Barber%20Shop!5e0!3m2!1sen!2sus!4v1686690667106!5m2!1sen!2sus" 
+            width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     )
 }
