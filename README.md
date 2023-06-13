@@ -38,8 +38,12 @@ A simple react frontend application designed for an amazing barbershop in Nyack,
 ## ![Homepage](https://i.imgur.com/RcAFlSj.png)
 ## ![Homepage](https://i.imgur.com/jX1o1SQ.png)
 ## ![Homepage](https://i.imgur.com/2ciTbMk.png)
-## ![Homepage]()
-## ![Homepage]()
+## ![Services](https://i.imgur.com/57OrydE.png)
+## ![Services](https://i.imgur.com/qCyJb7T.png)
+## ![Services](https://i.imgur.com/qCyJb7T.png)
+## ![Gallery](https://i.imgur.com/MAvkbzg.png)
+## ![Gallery](https://i.imgur.com/xMl4Pi5.png)
+## ![Book](https://i.imgur.com/qBAEHZR.png)
 
 
 
