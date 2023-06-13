@@ -1,6 +1,6 @@
 # Nyack Barbershop 
 
-## [Deployed Site]()
+## [Deployed Site](https://nyack-barbershop.herokuapp.com/)
 Created by James Fleming
 # Socials
 
@@ -33,7 +33,13 @@ A simple react frontend application designed for an amazing barbershop in Nyack,
 
 # Views 
 
-## [Deployed Site]()
+## [Deployed Site](https://nyack-barbershop.herokuapp.com/)
+
+## ![Homepage](https://i.imgur.com/RcAFlSj.png)
+## ![Homepage](https://i.imgur.com/jX1o1SQ.png)
+## ![Homepage](https://i.imgur.com/2ciTbMk.png)
+## ![Homepage]()
+## ![Homepage]()
 
 
 
