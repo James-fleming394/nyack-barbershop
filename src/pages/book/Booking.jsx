@@ -26,11 +26,30 @@ const Booking = () => {
         console.log('Selected Barber:', selectedBarber);
         console.log('Selected Time:', selectedTime);
         console.log('Selected Date:', selectedDate);
-    }
+
+        setShowPopup(true);
+    };
+
+    const handleClosePopup = () => {
+        setShowPopup(false);
+    };
+
+    const Popup = ( {onClose} ) => {
+        return (
+            <div className="popup">
+                <div className="popup-content">
+                <h2>Thank you for your appointment!</h2>
+                <button onClick={onClose}>Close</button>
+                </div>
+            </div>
+        );
+    };
+
+    const [showPopup, setShowPopup] = useState(false);
 
     return(
         <div className="booking">
-            <h1>Book an Appointment</h1>
+            <h1 className="book-h1">Book an Appointment</h1>
         <form onSubmit={handleSubmit}>
         <div>
             <label>Barber:</label>
@@ -52,6 +71,7 @@ const Booking = () => {
         </div>
         <button type="submit">Book Appointment</button>
         </form>
+        {showPopup && <Popup onClose={handleClosePopup} />}
         </div>
     )
 }
