@@ -42,7 +42,7 @@ const Gallery = () => {
     return(
         <div className="gallery">
             {photos.map((photo, index) => (
-                <img key={index} className="image-gallery" src={photo} alt={`Photo ${index + 1}`} />
+                <img key={index} className="image-gallery" src={photo} alt={`${index + 1}`} />
             ))}
         </div>
     )

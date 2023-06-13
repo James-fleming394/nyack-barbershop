@@ -7,6 +7,7 @@ import Home from './pages/home/Home';
 import Services from './pages/services/Services';
 import Staff from './pages/staff/Staff';
 import Gallery from './pages/gallery/Gallery';
+import Booking from './pages/book/Booking';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Route path='/services' element={<Services />} />
             <Route path='/staff' element={<Staff />} />
             <Route path='/gallery' element={<Gallery />} />
+            <Route path='/booking' element={<Booking />} />
           </Routes>
         </div>
       <Footer />  
