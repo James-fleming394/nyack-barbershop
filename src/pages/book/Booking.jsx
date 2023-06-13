@@ -41,7 +41,7 @@ const Booking = () => {
         return (
             <div className="popup-overlay">
                 <div className="popup-content">
-                <h2>Appointment Confirmed!  See you Soon!</h2>
+                <h2>Appointment Confirmed! <br></br> See you Soon!</h2>
                 <button onClick={onClose}>Close</button>
                 </div>
             </div>
