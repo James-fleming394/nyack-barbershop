@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
-// Suppress ResizeObserver warning
-window.addEventListener('error', (e) => {
-  if (e.message === 'ResizeObserver loop completed with undelivered notifications.') {
-    e.stopImmediatePropagation();
+// Suppress ResizeObserver loop error (cleanest workaround)
+const originalConsoleError = console.error;
+console.error = (...args) => {
+  if (
+    args[0] &&
+    typeof args[0] === 'string' &&
+    args[0].includes('ResizeObserver loop completed with undelivered notifications.')
+  ) {
+    return;
   }
-});
+  originalConsoleError(...args);
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
