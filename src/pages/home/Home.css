@@ -109,10 +109,20 @@ h3 {
     height: 350px;
 }
 
+.google-maps-container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
 .google-maps {
     width: 100%;
-    align-items: center;
-    margin-top: 10px;
+    max-width: 600px;
+    height: 450px;
+    border: none;
+    display: block;
 }
 
 @media (max-width: 1000px) {
@@ -222,9 +232,19 @@ h3 {
         height: 350px;
     }
 
+    .google-maps-container {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
     .google-maps {
         width: 100%;
-        align-items: center;
-        margin-top: 10px;
+        max-width: 600px;
+        height: 450px;
+        border: none;
+        display: block;
     }
 }
