@@ -51,11 +51,10 @@ const Home = () => {
           <img className="right-img" src={Home01} alt="home right" />
         </div>
       </div>
-
-<!-- Elfsight Yelp Reviews | Nyack Barbershop -->
+      <div className="yelp">
 <script src="https://static.elfsight.com/platform/platform.js" async></script>
 <div class="elfsight-app-63c859e2-7023-41bd-804a-b8d1727cc51e" data-elfsight-app-lazy></div>
-
+      </div>
 
       {showMap && (
         <div className="google-maps-container">
