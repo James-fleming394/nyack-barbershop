@@ -52,34 +52,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="yelp-reviews">
-  <h3>What People Are Saying on Yelp</h3>
-
-  <span className="yelp-review" data-review-id="6u4dsvygCM1Wuw-7DsIUnw" data-hostname="www.yelp.com">
-    Read <a href="https://www.yelp.com/user_details?userid=bghAbVdlX8v3nrYgBFvW_w" rel="nofollow noopener">Serge M.</a>'s 
-    <a href="https://www.yelp.com/biz/nyack-barbershop-nyack?hrid=6u4dsvygCM1Wuw-7DsIUnw" rel="nofollow noopener"> review</a> of 
-    <a href="https://www.yelp.com/biz/cB7fw2ysNqVbTbwLD9vBiw" rel="nofollow noopener"> Nyack Barbershop</a> on 
-    <a href="https://www.yelp.com" rel="nofollow noopener"> Yelp</a>
-  </span>
-
-  <span className="yelp-review" data-review-id="-OtRNBKUgb4vvBFI_9qMNA" data-hostname="www.yelp.com">
-    Read <a href="https://www.yelp.com/user_details?userid=dAiQUPGv5Eo0uO2jesSaeA" rel="nofollow noopener">Vincent V.</a>'s 
-    <a href="https://www.yelp.com/biz/nyack-barbershop-nyack?hrid=-OtRNBKUgb4vvBFI_9qMNA" rel="nofollow noopener"> review</a> of 
-    <a href="https://www.yelp.com/biz/cB7fw2ysNqVbTbwLD9vBiw" rel="nofollow noopener"> Nyack Barbershop</a> on 
-    <a href="https://www.yelp.com" rel="nofollow noopener"> Yelp</a>
-  </span>
-
-  <span className="yelp-review" data-review-id="5S7PwLGsn6zCGZcCmg4HUA" data-hostname="www.yelp.com">
-    Read <a href="https://www.yelp.com/user_details?userid=xG3W73JyA8qf6e38d9OrIg" rel="nofollow noopener">Eugene B.</a>'s 
-    <a href="https://www.yelp.com/biz/nyack-barbershop-nyack?hrid=5S7PwLGsn6zCGZcCmg4HUA" rel="nofollow noopener"> review</a> of 
-    <a href="https://www.yelp.com/biz/cB7fw2ysNqVbTbwLD9vBiw" rel="nofollow noopener"> Nyack Barbershop</a> on 
-    <a href="https://www.yelp.com" rel="nofollow noopener"> Yelp</a>
-  </span>
-
-  {/* Load Yelp embed script once */}
-  <script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script>
-</div>
-
+<!-- Elfsight Yelp Reviews | Nyack Barbershop -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-63c859e2-7023-41bd-804a-b8d1727cc51e" data-elfsight-app-lazy></div>
 
 
       {showMap && (
